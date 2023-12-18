@@ -23,6 +23,7 @@ public class Main {
 
     // Los in de main methode alle foutmeldigen op door (abstracte) klassen met variabelen en methoden te maken (en soms een import).
     // In de main methode en de Main klasse hoef je niks te veranderen.
+
     public static void main(String[] args) {
         Scanner speler_A = new Scanner(System.in);
         PokemonGymImpl pokemonGym = new PokemonGymImpl(pokemons);
@@ -39,6 +40,8 @@ public class Main {
         }
 
     }
+
+
 
 
 }
